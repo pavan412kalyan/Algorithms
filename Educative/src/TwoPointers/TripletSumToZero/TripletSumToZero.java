@@ -1,4 +1,4 @@
-package TwoPointers;
+package TwoPointers.TripletSumToZero;
 
 import java.util.*;
 

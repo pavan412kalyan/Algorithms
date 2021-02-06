@@ -1,4 +1,4 @@
-package TwoPointers;
+package TwoPointers.TripletSumCloseToTarget;
 
 import java.util.*;
 

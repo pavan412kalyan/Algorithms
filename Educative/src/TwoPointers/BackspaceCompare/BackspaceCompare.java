@@ -1,4 +1,4 @@
-package TwoPointers;
+package TwoPointers.BackspaceCompare;
 
 import java.util.Stack;
 

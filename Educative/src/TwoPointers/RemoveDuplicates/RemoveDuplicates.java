@@ -1,4 +1,4 @@
-package TwoPointers;
+package TwoPointers.RemoveDuplicates;
 
 import java.util.*;
 

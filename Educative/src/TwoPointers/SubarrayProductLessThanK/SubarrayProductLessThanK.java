@@ -1,4 +1,4 @@
-package TwoPointers;
+package TwoPointers.SubarrayProductLessThanK;
 
 import java.util.*;
 /*Given an array with positive numbers and a target number, 

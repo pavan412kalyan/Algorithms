@@ -1,4 +1,4 @@
-package TwoPointers;
+package TwoPointers.TripletWithSmallerSum;
 
 
 /*GGiven an array arr of unsorted numbers and a target sum, count all triplets in it such that arr[i] + arr[j] + arr[k] < target
