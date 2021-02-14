@@ -1,4 +1,4 @@
-package Graphs.CycleDetection;
+package Graphs.CycleDetectionDirected;
 
 //A Java Program to detect cycle in a graph 
 import java.util.ArrayList; 
