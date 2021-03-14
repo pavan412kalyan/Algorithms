@@ -1,5 +1,6 @@
 package Graphs2;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class Unionfindprob {
@@ -98,8 +99,7 @@ public class Unionfindprob {
 	
 	 void show() {
 		 
-		 for(int i=0;i<v.length;i++)
-			 System.out.println(v[i]);
+		System.out.println(Arrays.toString(v));
 		 
 	 }
 	
@@ -108,12 +108,12 @@ public class Unionfindprob {
 		Unionfindprob un= new Unionfindprob(5);	
 	  un.union(1,2);	
 	  un.union(4,3);	
-	//  un.union(3,2);
-	//  un.union(0,3);	
+	  un.union(3,2);
+	  un.union(0,3);	
 
       
 
-	 // un.show();
+	  un.show();
 	  
 	 System.out.println(un.getMaxGroup());
 	  

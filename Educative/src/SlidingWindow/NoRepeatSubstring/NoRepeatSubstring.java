@@ -5,7 +5,7 @@ import java.util.*;
 class NoRepeatSubstring {
   public static int findLength(String str) {
     
-	  HashMap<Character,Integer> map = new HashMap<Character,Integer>();
+	  HashMap<Character,Integer> map = new HashMap<Character,Integer>(); // map to save the index of that character
 	  int start =0,max=-1;
 	  
 	  for(int end=0; end <str.length();end++)
@@ -16,7 +16,7 @@ class NoRepeatSubstring {
 		 {
 			 
 			 
-			 start = Math.max( map.get(ch)+1, start); // you need to take that is most right side pointer , example  aabccbb
+			 start = Math.max( map.get(ch)+1, start); // you need to take that is most right side pointer , example  abxb a
 			 
 			 
 		 }

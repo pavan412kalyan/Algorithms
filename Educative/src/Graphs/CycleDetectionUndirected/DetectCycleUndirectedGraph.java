@@ -43,7 +43,7 @@ class Graph
 		{
 			if(visited[i]==0)
 			{
-				if( dfs(i,visited,-1));//source,visited,parent
+				if( dfs(i,visited,-1)==true);//source,visited,parent
 			        return true;
 			}
 		}
@@ -63,7 +63,7 @@ class Graph
 		  {
 			  if(visited[child]==0)
 			  {
-				  if(dfs(child,visited,src))
+				  if(dfs(child,visited,src)==true)
 					  return true;
 			  }
 			  
