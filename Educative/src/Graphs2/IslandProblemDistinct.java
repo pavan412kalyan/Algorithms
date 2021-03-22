@@ -49,7 +49,7 @@ public class IslandProblemDistinct {
     static void dfs(int i,int j,int[][] grid,int[][] visited)
     {
     	System.out.println("--");
-          int r =grid.length;
+        int r =grid.length;
         int c=grid[0].length;
         System.out.println("s-"+s);    
         if( i<0 || i>=r || j<0 || j>=c)

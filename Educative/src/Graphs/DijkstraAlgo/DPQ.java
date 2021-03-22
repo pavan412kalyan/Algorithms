@@ -1,7 +1,5 @@
 package Graphs.DijkstraAlgo;
 
-//Java implementation of Dijkstra's Algorithm 
-//using Priority Queue 
 import java.util.*; 
 public class DPQ { 
 
@@ -59,13 +57,10 @@ public class DPQ {
 		
 		
 		
-		
-		
-		
+
 		
 	} 
 
-	// Driver code 
 	public static void main(String arg[]) 
 	{ 
 		int V = 5; 
